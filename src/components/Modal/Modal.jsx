@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Modal.module.css";
+import styles from "./Mode.module.css";
 
 const Zakah = ({ show, onClose, modalImg, modalInstructions, modalTitle }) => {
   if (!show) {
@@ -17,3 +17,4 @@ const Zakah = ({ show, onClose, modalImg, modalInstructions, modalTitle }) => {
   );
 };
 export default Zakah;
+//dubugged error in line 2: Had imported css using wrong tree structure
