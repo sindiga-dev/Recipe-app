@@ -17,4 +17,3 @@ const Zakah = ({ show, onClose, modalImg, modalInstructions, modalTitle }) => {
   );
 };
 export default Zakah;
-//dubugged error in line 2: Had imported css using wrong tree structure
