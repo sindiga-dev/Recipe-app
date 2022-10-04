@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import styles from "./Item.module.css";
-import Mode from "../../components/Mode/Mode";
+import Modal from "../..components/Modal/Modal";
 
 const MenuItem=({image, title, category, instructions}) => {
     
